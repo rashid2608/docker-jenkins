@@ -1,0 +1,35 @@
+2022-03-12 12:28:40.674  INFO 86125 --- [restartedMain] m.b.a.MultplicationApplication           : Starting MultplicationApplication using Java 1.8.0_321 on Mohammeds-MBP with PID 86125 (/Users/mohammedharunrashid/eclipse-workspace/multplication/target/classes started by mohammedharunrashid in /Users/mohammedharunrashid/eclipse-workspace/multplication)
+2022-03-12 12:28:40.676  INFO 86125 --- [restartedMain] m.b.a.MultplicationApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-03-12 12:28:40.918  INFO 86125 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-12 12:28:40.931  INFO 86125 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 2 JPA repository interfaces.
+2022-03-12 12:28:41.059  INFO 86125 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2022-03-12 12:28:41.061  INFO 86125 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-12 12:28:41.061  INFO 86125 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-12 12:28:41.067  INFO 86125 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-12 12:28:41.068  INFO 86125 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 380 ms
+2022-03-12 12:28:41.075  INFO 86125 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2022-03-12 12:28:41.102  INFO 86125 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2022-03-12 12:28:41.102  INFO 86125 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/multiplication'
+2022-03-12 12:28:41.134  INFO 86125 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-12 12:28:41.140  INFO 86125 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-03-12 12:28:41.337  INFO 86125 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-12 12:28:41.337  INFO 86125 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-12 12:28:41.420  WARN 86125 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-12 12:28:41.477  INFO 86125 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-03-12 12:28:41.512  INFO 86125 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2022-03-12 12:28:41.520  INFO 86125 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-12 12:28:41.537  INFO 86125 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2022-03-12 12:28:41.541  INFO 86125 --- [restartedMain] m.b.a.MultplicationApplication           : Started MultplicationApplication in 0.982 seconds (JVM running for 1411.537)
+2022-03-12 12:28:41.542  INFO 86125 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-03-12 12:29:01.797  INFO 86125 --- [http-nio-8000-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-12 12:29:01.806  INFO 86125 --- [http-nio-8000-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-12 12:29:01.821  INFO 86125 --- [http-nio-8000-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2022-03-12 12:29:01.847  INFO 86125 --- [http-nio-8000-exec-3] m.b.a.CustomHttpRequestWrapper           : Body: <ChallengeAttemptDTO>
+    <factorA>84</factorA>
+    <factorB>67</factorB>
+    <userAlias>monu</userAlias>
+    <guess>5628</guess>
+</ChallengeAttemptDTO>
+2022-03-12 12:30:50.995  INFO 86125 --- [Thread-44] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-12 12:30:51.006  INFO 86125 --- [Thread-44] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2022-03-12 12:30:51.025  INFO 86125 --- [Thread-44] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
